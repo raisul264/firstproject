@@ -1,0 +1,360 @@
+.mynav {
+  height: 132px;
+  padding-left: 0px;
+  padding-right: 96px;
+  background-color: #222831 !important;
+  border-bottom: 1px solid #5a5a5a;
+  margin-left: 0px !important;
+}
+
+body {
+  color: #eeeeee !important;
+  font-family: "Poppins", sans-serif;
+  background-color: #222831 !important;
+}
+
+.herosection {
+  height: 892px;
+  width: 100%;
+}
+
+.heroh2 {
+  font-weight: bold;
+  font-size: 90px;
+  margin-bottom: 5px;
+  line-height: 1.1;
+}
+
+.herotext {
+  padding-top: 171px;
+  padding-left: 204px;
+}
+
+.heropic {
+  padding-top: 117px;
+  padding-right: 152px;
+  text-align: right;
+}
+
+.ptext {
+  color: #00adb5 !important;
+}
+
+.btn1,
+.btn2 {
+  border: none;
+  border-radius: 100px;
+  font-weight: bold;
+  padding: 10px 32px;
+  color: #eeeeee;
+  margin-top: 48px;
+  transition: box-shadow 0.3s ease;
+}
+
+.btn1 {
+  background-color: #00adb5 !important;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.btn2 {
+  background-color: #393e46 !important;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.btn1:hover,
+.btn2:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.abotsection {
+  height: 1024px;
+  width: 100%;
+}
+
+.btn3,
+.btn4 {
+  border: none;
+  border-radius: 100px;
+  font-weight: bold;
+  padding: 10px 32px;
+  color: #eeeeee;
+  cursor: pointer;
+  margin-right: 16px;
+  margin-bottom: 48px;
+}
+
+.btn3 {
+  background-color: #00adb5 !important;
+}
+
+.btn4 {
+  background-color: #393e46 !important;
+}
+
+.btn4:last-child {
+  margin-right: 0;
+}
+
+.btn-container {
+  text-align: center;
+}
+
+.workbg {
+  background-image: url("/img/pic3.png");
+  height: 1024px;
+  width: 100%;
+}
+
+.rowform {
+  display: flex;
+  gap: 20px; /* Space between the two divs */
+}
+
+.rowform div {
+  flex: 1;
+}
+
+.btn5 {
+  text-decoration: none;
+  color: white;
+  background: none;
+  border: none;
+  padding: 0;
+  margin: 0 48px 0 0;
+  cursor: pointer;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.btn5:last-child {
+  margin-right: 0;
+}
+
+.footer-icons {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+.icon {
+  width: 48px;
+  height: 48px;
+  background-color: #393e46;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #eeeeee;
+  font-size: 24px;
+  text-decoration: none;
+}
+
+.icon i {
+  pointer-events: none;
+}
+
+.terms {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding-right: 96px;
+  padding-left: 96px;
+  padding-top: 48px;
+  padding-bottom: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: right;
+}
+
+.terms p {
+  margin: 0;
+  color: #eeeeee;
+  font-size: 12px;
+}
+
+/* Responsive Design */
+
+@media (max-width: 1024px) {
+  .mynav {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+
+  .herosection {
+    height: 700px; /* Adjust height for smaller screens */
+  }
+
+  .herotext {
+    padding-left: 32px;
+    padding-top: 100px; /* Adjust padding */
+  }
+
+  .heropic {
+    padding-top: 80px;
+    text-align: center;
+  }
+
+  .heropic img {
+    width: 80%; /* Scale image for smaller screens */
+  }
+
+  .btn1,
+  .btn2 {
+    padding: 8px 24px; /* Adjust button size */
+    font-size: 16px;
+    margin-top: 24px;
+  }
+
+  .abotsection {
+    height: 800px; /* Adjust height for medium screens */
+  }
+
+  .rowform {
+    flex-direction: column; /* Stack the form inputs vertically */
+  }
+
+  .rowform div {
+    margin-bottom: 15px;
+  }
+
+  .workbg {
+    height: 800px; /* Adjust height for medium screens */
+  }
+
+  .footer-icons {
+    gap: 16px;
+  }
+
+  .icon {
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+  }
+
+  .terms {
+    padding-right: 32px;
+    padding-left: 32px;
+  }
+}
+
+@media (max-width: 768px) {
+  .mynav {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .herosection {
+    height: 600px;
+  }
+
+  .herotext {
+    padding-left: 16px;
+    padding-top: 60px;
+  }
+
+  .heropic img {
+    width: 70%;
+  }
+
+  .btn1,
+  .btn2 {
+    padding: 8px 20px;
+    font-size: 14px;
+    margin-top: 16px;
+  }
+
+  .abotsection {
+    height: 600px; /* Adjust height for smaller screens */
+  }
+
+  .btn3,
+  .btn4 {
+    padding: 8px 20px; /* Adjust padding */
+  }
+
+  .workbg {
+    height: 600px; /* Adjust height for small screens */
+  }
+
+  .footer-icons {
+    gap: 12px;
+  }
+
+  .icon {
+    width: 36px;
+    height: 36px;
+    font-size: 18px;
+  }
+
+  .terms {
+    padding-right: 16px;
+    padding-left: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .mynav {
+    padding-left: 8px;
+    padding-right: 8px;
+    height: 80px;
+  }
+
+  .herosection {
+    height: 500px;
+  }
+
+  .herotext {
+    padding-left: 8px;
+    padding-top: 40px;
+  }
+
+  .heropic img {
+    width: 60%; /* Adjust image size */
+  }
+
+  .btn1,
+  .btn2 {
+    padding: 6px 16px; /* Adjust button padding */
+    font-size: 12px;
+    margin-top: 12px;
+  }
+
+  .abotsection {
+    height: 500px; /* Adjust height for mobile screens */
+  }
+
+  .rowform {
+    flex-direction: column; /* Stack the form inputs vertically */
+  }
+
+  .rowform div {
+    margin-bottom: 12px;
+  }
+
+  .btn3,
+  .btn4 {
+    padding: 6px 16px; /* Adjust padding */
+  }
+
+  .workbg {
+    height: 500px; /* Adjust height for small screens */
+  }
+
+  .footer-icons {
+    gap: 8px;
+  }
+
+  .icon {
+    width: 32px;
+    height: 32px;
+    font-size: 16px;
+  }
+
+  .terms {
+    padding-right: 8px;
+    padding-left: 8px;
+  }
+}
